@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tudo Fala - Comunicação de Impacto</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    nav {
+      background-color: #004080;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    .hero {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg');
+      background-size: cover;
+      background-position: center;
+      padding: 100px 20px;
+      color: white;
+      text-align: center;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2em;
+      color: #003366;
+      margin-bottom: 20px;
+    }
+
+    .service {
+      background-color: #ffffff;
+      border-left: 6px solid #004080;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 6px;
+    }
+
+    .service h3 {
+      margin-top: 0;
+      color: #004080;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background-color: #004080;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background-color: #002f5f;
+    }
+
+    #contato a {
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        padding: 60px 15px;
+      }
+
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .button {
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Tudo Fala</h1>
+  <p>Damos voz às ideias e transformamos mensagens em experiências que impactam, envolvem e geram resultado.</p>
+</header>
+
+<nav>
+  <a href="#sobre">Sobre</a>
+  <a href="#servicos">Serviços</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section class="hero">
+  <h2>Conectamos ideias, criamos impacto</h2>
+  <p>Capacitamos indivíduos e empresas a se comunicarem com clareza, confiança e impacto.</p>
+</section>
+
+<section id="sobre">
+  <h2>Sobre Nós</h2>
+  <p>Nosso objetivo é ajudar pessoas e empresas a melhorarem sua comunicação de forma eficaz e assertiva. Por meio de palestras, workshops e consultorias especializadas, capacitamos indivíduos a se expressarem com clareza, confiança e impacto.</p>
+</section>
+
+<section id="servicos">
+  <h2>Serviços</h2>
+
+  <div class="service">
+    <h3>Palestras Corporativas</h3>
+    <p>Levamos comunicação de impacto para dentro das empresas por meio de palestras dinâmicas, inspiradoras e personalizadas.</p>
+    <p><strong>Duração:</strong> Até 1h presencial ou online</p>
+    <p><strong>Investimento:</strong> A partir de R$900</p>
+    <a href="#contato" class="button">Solicite Orçamento</a>
+  </div>
+
+  <div class="service">
+    <h3>Consultoria</h3>
+    <p>Consultoria estratégica para aprimorar a comunicação da sua marca, por dentro e por fora.</p>
+    <p><strong>Duração:</strong> De 1h a 2h30 presencial ou online</p>
+    <p><strong>Investimento:</strong> A partir de R$980</p>
+    <a href="#contato" class="button">Solicite Orçamento</a>
+  </div>
+
+  <div class="service">
+    <h3>Treinamento</h3>
+    <p>Treinamento prático e personalizado para equipes que buscam melhorar sua comunicação, postura e expressão.</p>
+    <p><strong>Duração:</strong> 4 horas (presencial ou online)</p>
+    <p><strong>Investimento:</strong> A partir de R$ 2.500 por turma</p>
+    <a href="#contato" class="button">Solicite Orçamento</a>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p><strong>Email:</strong> contato@tudofala.com.br</p>
+  <p><strong>Telefone:</strong> (11) 99999-9999</p>
+  <p><strong>Endereço:</strong> Rua da Comunicação, 123 – São Paulo, SP</p>
+  <p><strong>Redes sociais:</strong>
+    <a href="#" style="color: #004080;">Instagram</a> |
+    <a href="#" style="color: #004080;">LinkedIn</a>
+  </p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Tudo Fala. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
